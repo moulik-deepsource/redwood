@@ -1,0 +1,26 @@
+version = 1
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  dialect = "typescript"
+  environment = ["nodejs"]
+  dependency_file_paths = [
+  "packages/api-server/package.json",
+  "packages/api/package.json",
+  "packages/auth/package.json",
+  "packages/cli/package.json",
+  "packages/core/package.json",
+  "packages/create-redwood-app/package.json",
+  "packages/dev-server/package.json",
+  "packages/eslint-config/package.json",
+  "packages/eslint-plugin-redwood/package.json",
+  "packages/forms/package.json",
+  "packages/internal/package.json",
+  "packages/router/package.json",
+  "packages/structure/package.json",
+  "packages/testing/package.json",
+  "packages/web/package.json",
+  ]
